@@ -1,5 +1,5 @@
 var convert = require('./convert'),
-    func = convert('reduce', require('../reduce'));
+    func = convert('round', require('../round'));
 
 func.placeholder = require('./placeholder');
 module.exports = func;

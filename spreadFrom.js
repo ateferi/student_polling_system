@@ -1,5 +1,5 @@
 var convert = require('./convert'),
-    func = convert('reduce', require('../reduce'));
+    func = convert('spreadFrom', require('../spread'));
 
 func.placeholder = require('./placeholder');
 module.exports = func;
