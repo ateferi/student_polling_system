@@ -1,5 +1,5 @@
 var convert = require('./convert'),
-    func = convert('filter', require('../filter'));
+    func = convert('isWeakSet', require('../isWeakSet'), require('./_falseOptions'));
 
 func.placeholder = require('./placeholder');
 module.exports = func;
