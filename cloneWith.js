@@ -1,5 +1,5 @@
 var convert = require('./convert'),
-    func = convert('concat', require('../concat'));
+    func = convert('cloneWith', require('../cloneWith'));
 
 func.placeholder = require('./placeholder');
 module.exports = func;
