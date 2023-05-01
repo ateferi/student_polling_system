@@ -1,5 +1,5 @@
 var convert = require('./convert'),
-    func = convert('memoize', require('../memoize'));
+    func = convert('keysIn', require('../keysIn'), require('./_falseOptions'));
 
 func.placeholder = require('./placeholder');
 module.exports = func;

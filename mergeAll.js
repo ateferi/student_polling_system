@@ -1,5 +1,5 @@
 var convert = require('./convert'),
-    func = convert('memoize', require('../memoize'));
+    func = convert('mergeAll', require('../merge'));
 
 func.placeholder = require('./placeholder');
 module.exports = func;
